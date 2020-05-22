@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script async src="script.js"></script>
+    <title>ToDo app</title>
+</head>
+<body>
+   
+  
+    <div class="container">
+        <div class="cards"> 
+            <h2>To Do App</h2>
+            <div class="card">
+                <div class="title-card">
+                    <h4>New task</h4>
+                </div>
+                <div class="input-title">
+                    <input  id="inpt" type="text" placeholder="İnput Task" value="" >
+                    <button class="btn" onclick="addTask()">+</button>
+                </div>
+                
+            </div>
+            
+            <div class="alt-title-card">
+                <h4 class="h4-title">Task list</h4>
+                <button class="btn-alt" onclick="deleteall()">Delete All</button>
+            </div class="display-none">
+            <!-- burası js ile çalışacak -->
+                        <ul id="list">
+                        <!-- <li class="alt-title-card-2 clearfix">
+                            <a class="link" href="#">
+                                <i" class="far fa-times-circle"></i>
+                            </a>
+                            <h5>New item</h5>
+                        </li>
+                        <li class="alt-title-card-2 clearfix">
+                            <a class="link" href="#">
+                                <i" class="far fa-times-circle"></i>
+                            </a>
+                            <h5>New item</h5>
+                        </li> -->
+                    </ul>
+            </div>
+</body>
+</html>
